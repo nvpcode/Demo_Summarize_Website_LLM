@@ -27,7 +27,7 @@ Cài các thư viện cần thiết:
 pip install streamlit requests beautifulsoup4 ollama
 ```
 
-### 2. Chạy chương trình (CLI)
+### 2. Chạy chương trình
 Khởi chạy:
 ```
 streamlit run app.py
