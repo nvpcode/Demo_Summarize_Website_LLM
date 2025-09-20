@@ -23,15 +23,15 @@ Yêu cầu:
 - [Ollama](https://ollama.ai/) (cài và khởi động server cục bộ)
 
 Cài các thư viện cần thiết:
-`
+```
 pip install streamlit requests beautifulsoup4 ollama
-`
+```
 
 ### 2. Chạy chương trình (CLI)
 Khởi chạy:
-`
+```
 streamlit run app.py
-`
+```
 Giao diện sẽ hiển thị tại địa chỉ:
 👉 http://localhost:8501
 
@@ -39,9 +39,9 @@ Tại đây bạn có thể nhập URL website và nhận bản tóm tắt ngay 
 
 ## ⚙️ Cấu hình
 Mô hình (MODEL): được định nghĩa trong summarizer.py, mặc định:
-`
+```
 MODEL = "incept5/llama3.1-claude:latest"
-`
+```
 Bạn có thể đổi sang model khác đã cài với Ollama.
 
 Prompt hệ thống (SYSTEM_PROMPT):
