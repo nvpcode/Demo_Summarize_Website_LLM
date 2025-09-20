@@ -8,10 +8,10 @@ Dự án này cho phép bạn **tóm tắt nội dung của bất kỳ trang web
 ---
 
 ## 📂 Cấu trúc dự án
-`
+```
 ├── summarizer.py # Logic chính: lấy dữ liệu web + gọi LLM để tóm tắt
 ├── app.py # Giao diện web (Streamlit) để nhập URL và xem kết quả
-` 
+```
 
 ---
 
@@ -45,12 +45,12 @@ MODEL = "incept5/llama3.1-claude:latest"
 Bạn có thể đổi sang model khác đã cài với Ollama.
 
 Prompt hệ thống (SYSTEM_PROMPT):
-`
+```
 SYSTEM_PROMPT = (
     "Bạn là trợ lý phân tích nội dung của một trang web. "
     "Và cung cấp một bản tóm tắt ngắn gọn, dễ hiểu. "
     "Nếu nội dung viết bằng ngôn ngữ nào thì hãy trả lời bằng ngôn ngữ đó. "
     "Trả lời dưới dạng markdown."
 )
-`
+```
 Có thể tùy chỉnh cho phù hợp nhu cầu.
